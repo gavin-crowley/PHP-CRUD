@@ -4,6 +4,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
   <style>
    body
    {
@@ -18,16 +19,16 @@
     background-color:#fff;
     border:1px solid #ccc;
     border-radius:5px;
-    margin-top:100px;
+    /* margin-top:100px; */
    }
   </style>
  </head>
  <body>
   <div class="container box">
-   <h1 align="center">PHP PDO CRUD with Ajax Jquery and Bootstrap</h1>
+   <h1 align="center">Staff List</h1>
    <br />
    <div align="right">
-    <button type="button" id="modal_button" class="btn btn-info">Create Records</button>
+    <button type="button" id="modal_button" class="btn btn-success">Add Item</button>
     <!-- It will show Modal for Create new Records !-->
    </div>
    <br />

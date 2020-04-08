@@ -18,7 +18,6 @@ if(isset($_POST["action"])) //Check value of $_POST["action"] variable value is 
     <tr>
      <th width="40%">First Name</th>
      <th width="40%">Last Name</th>
-     <th width="10%">Update</th>
      <th width="10%">Delete</th>
     </tr>
   ';
@@ -30,7 +29,6 @@ if(isset($_POST["action"])) //Check value of $_POST["action"] variable value is 
     <tr>
      <td>'.$row["first_name"].'</td>
      <td>'.$row["last_name"].'</td>
-     <td><button type="button" id="'.$row["id"].'" class="btn btn-warning btn-xs update">Update</button></td>
      <td><button type="button" id="'.$row["id"].'" class="btn btn-danger btn-xs delete">Delete</button></td>
     </tr>
     ';
